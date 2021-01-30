@@ -1,0 +1,199 @@
+/*
+
+*{
+    width: 70;
+    color:black;
+}
+
+body {
+    background-color: aqua;
+}
+h2{
+    color:blueviolet;
+}
+div{
+    color:burlywood;
+}
+div#css{
+    color:black;
+}
+#css{
+    color:cornsilk;
+}
+.class{
+    background-color:black;
+}
+p.class{
+    background-color:darkgray;
+}
+.renk-lan{
+    color:red;
+}
+.class.renk-lan#clasım{
+    background-color:black;
+}*/
+div, p{
+    background-color:aqua;
+}
+div erti{
+    color:red;
+}
+div  p{
+    color:lime;
+    background-color: darkslateblue;
+}
+p + h2 {
+    color:white;
+    background-color: red;
+}
+div.polo::before{
+    content:'adam ';
+    background-color: firebrick;
+    
+}
+div.polo::after{
+    content: 'değil';
+    color:slateblue;
+    background-color: black;
+}div.cssdevamke::before{
+    content: attr(data-öncesi);
+    color:red;
+}
+::selection{
+    background-color:red;
+    color:white;
+}
+p::selection{
+    background-color: springgreen;
+}
+input::placeholder{
+    color:red;
+}
+input{
+    color:blue;
+}
+ul li:first-child{
+    background-color: springgreen;
+}
+ul li:last-child{
+    background-color: tomato;
+}
+ul li:nth-child(3){
+    background-color: violet;
+}
+ul li:nth-child(4n){
+    color:yellow;
+}
+a:hover{
+    background-color:lawngreen;
+}
+input[type="checkbox"]:checked + div {
+    display: none;
+}
+/* span {
+    padding: 0 20px;
+    background-color: red;
+    display: inline;
+}*/
+span{
+    padding: 0 20px;
+    background-color: pink;
+    display: inline-block;
+}
+.ertimal{
+    width: 50px;
+    height: 75px;
+    background-color: lime;
+}
+.malerti{
+    padding: 10px 10px 15px 30px;
+    margin: 15px 5px 20px 5px;
+    background-color: purple;
+    border: 4px solid black;
+}
+.ertimalmı{
+    padding: 10px 10px 15px 30px;
+    margin: 15px 5px 20px 5px;
+    background-color: crimson;
+    border: 4px dotted black;
+}
+.benceertimal{
+    padding: 10px 10px 15px 30px;
+    margin: 15px 5px 20px 5px;
+    background-color: red;
+    border: 4px dashed black;
+}
+.erticikmal{
+    padding: 10px 10px 15px 30px;
+    margin: 15px 5px 20px 5px;
+    background-color: blueviolet;
+    border: 4px solid black;
+    border-left-color: chartreuse;
+    border-right-color: coral;
+    border-top-color: olive;
+    border-bottom-style: dotted;
+    border-bottom-color:black;
+    text-align: center;
+    word-spacing: 20px;
+    
+}
+.polatmal{
+    width: 300px;
+    height: 300px;
+    padding:50px;
+    box-sizing: border-box;
+    background-color: yellow;
+    border-radius: 10px 30px;
+    
+}
+.yumuşatma{
+    border-radius: 300px;
+}
+h3{
+    color:red;
+    font-family:sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-shadow: 8px 4px 2px black, -8px -4px 2px black;
+}
+.ertimmm{
+    line-height: 105px;
+    width: 50px;
+    font: bold italic 20px/60px arial;
+}
+.bgimage{
+    color:White;
+    width: auto;
+    height: 110%;
+    background-image: url(https://i.guim.co.uk/img/media/b2cc2745b4d72a14d139dba7c56870d7fa7e0d36/0_353_3648_2189/master/3648.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=2c59edce8fbf96b1eafb7fb5f2a57022);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.kutu{
+    width: 500px;
+    height: 500px;
+    background-color: lawngreen;
+    margin-top: 50px;
+    position: relative;
+}
+.kutu span{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 100px;
+    height: 100px;
+    background-color:orange;
+}
+.hareketli{
+    position: fixed;
+    bottom:50px;
+    right:50px;
+    border-radius: 100px;
+    color:black;
+    background-color: transparent;
+    z-index:2;
+}
+a{
+    text-decoration: line-through overline;
+}
